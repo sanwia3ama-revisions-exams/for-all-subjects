@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق مراجعات وامتحانات الثانوية العامة</title>
+    <style>
+        /* إعادة ضبط الهوامش الافتراضية للمتصفح */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+        }
+
+        /* الحاوية الرئيسية للتصميم الجانبي */
+        .main-layout {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* الأعمدة الإعلانية الجانبية (يمين ويسار) */
+        .sidebar-ad {
+            width: 160px; /* العرض القياسي لإعلانات السكاي سكرابر العمودية */
+            background-color: #e9ecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        /* صندوق الإعلان المخصص داخل العمود */
+        .ad-slot {
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            border: 2px dashed #bdc3c7;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden; /* لمنع خروج الإعلان عن الإطار */
+        }
+
+        /* منطقة التطبيق في المنتصف */
+        .app-container {
+            flex: 1; /* تجعل التطبيق يتمدد ليأخذ كل المساحة المتبقية في المنتصف */
+            height: 100%;
+            background-color: #fff;
+            position: relative;
+        }
+
+        /* ضبط الإطار ليملأ منطقة المنتصف تماماً */
+        .app-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* للتجاوب مع الهواتف الذكية */
+        @media (max-width: 768px) {
+            /* في الموبايل تختفي الإعلانات الجانبية تماماً حتى لا تضغط التطبيق ويظهر بشكل مريح للطلاب */
+            .sidebar-ad {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-layout">
+        
+        <!-- العمود الإعلاني الأيمن -->
+        <aside class="sidebar-ad">
+            <div class="ad-slot">
+                <!-- شفرة الإعلان الجانبي الأيمن -->
+                <script src="https://pl29310384.profitablecpmratenetwork.com/1f/4d/fc/1f4dfcd01832df6433005c331053354d.js"></script>
+            </div>
+        </aside>
+
+        <!-- منطقة التطبيق في المنتصف تماماً (تم توجيهها لرابط حرف H مباشرة) -->
+        <main class="app-container">
+            <iframe src="https://sanwia3ama-revisions-exams.github.io/2026/H/" title="تطبيق مراجعات وامتحانات الثانوية العامة - حرف H"></iframe>
+        </main>
+
+        <!-- العمود الإعلاني الأيسر -->
+        <aside class="sidebar-ad">
+            <div class="ad-slot">
+                <!-- شفرة الإعلان الجانبي الأيسر -->
+                <script src="https://pl29310384.profitablecpmratenetwork.com/1f/4d/fc/1f4dfcd01832df6433005c331053354d.js"></script>
+            </div>
+        </aside>
+
+    </div>
+
+</body>
+</html>
